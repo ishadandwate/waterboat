@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Water boat demo</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+  <body>
+    <div class="container mt-5">
+            <div class="row d-flex">
+                <div class=" col-6 col-lg-3">
+                    <a href="#" class="d-flex align-items-center justify-content-center">
+                        <img src="images/logo.png.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="row col-lg-3 mt-2">
+                        <div class="col-lg-2 contact-icon">
+                                <div class="box">
+                                    <i class="fa-solid fa-location-arrow"></i>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-9">
+                            <div class="con-head d-block">San Francisco</div>
+                            <div class="con-p">Mountain View, Fake st., CA</div>
+                        </div>
+                </div>
+            
+                <div class="row col-lg-3 mt-2">
+                        <div class="col-lg-2 contact-icon">
+                            <div class="box">
+                                <i class="fa-sharp fa-solid fa-phone"></i>  
+                            </div>                      
+                        </div>
+
+                        <div class="col-lg-9 text">
+                            <div class="con-head">000 209 392 312</div>
+                            <div class="con-p">Toll free</div>
+                        </div>
+                </div>
+        
+                <div class="row col-lg-3 mt-2">
+                        <div class="col-lg-2 contact-icon">
+                            <div class="box">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-9 text">
+                            <div class="con-head">info@gmail.com</div>
+                            <div class="con-p">Gournadi, 1230 Bariasl</div>
+                        </div>
+                </div>
+            </div>
+    </div>
+    <!----------------------------------navbar---------------------------------------------->
+    <nav class="navbar navbar-expand-md mt-4 my-navbar">
+        <div class="my-bar">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collaps" data-bs-target="#btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                    <div class="collaps navbar-collapse d-flex justify-content-center" id="btn">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="" class="nav-link me-4">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link me-4">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#servies" class="nav-link me-4">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#testimonials" class="nav-link me-4">TESTIMONIALS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#blog" class="nav-link me-4">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link me-4">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+     </nav>
+     <!-- ----------------------------- caorusel----------------------------------------- -->
+    <div class="carousel slide special-margin" id="demo" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              </div>
+
+              <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                            <div class="carousel-caption">   
+                                <h1 class="mb-4">Enjoy The Ocean With Your Family</h1>
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
+                                <button type="button" class="btn btn-primary my-btn">Read More</button>
+                            </div>
+                        <div class="bg-image-1"></div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-caption my-caption">
+                            <h1 class="mb-4">Explore, Discover The Ocean</h1>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
+                            <button type="button" class="btn btn-primary my-btn">Read More</button>
+                        </div>
+                        <div class="bg-image-2"></div> 
+                    </div>
+              <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                    <div class="my-circle">
+                    <span class="carousel-control-prev-icon"></span>
+                    </div>
+              </button>
+              <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                    <div class="my-circle">
+                    <span class="carousel-control-next-icon"></span>
+                    </div>
+              </button>
+        </div>
+    </div>
+    <!-- -------------------------------------------------------------------------------- -->
+    <div class="container mt-5 mb-5 special-margin" id="about">
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+               <img src="images/hero_2.jpg.webp" alt="" class="w-100 d-block">
+            </div>
+
+            <div class="col-lg-6 ">
+                <h5 class="mt-2">About Us</h5>
+                <h3>Welcome To Our Website</h3>
+                <a class="line">________</a> 
+                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, illum, quasi. Odit velit deserunt eligendi unde, enim. Enim fugiat.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eius ullam impedit architecto debitis facilis!</p>
+                <button type="button" class="btn btn-primary my-btn">learn more</button>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------------------------------------------- -->
+    <div class="container mt-4 mb-5 special-margin">
+        <div class="row ms-5 d-flex justify-content-between">
+            
+            <div class="col-lg-4">
+                <div class="my-icon mb-3">
+                    <img src="images/boat (1).png" alt="">
+                </div>
+                <h3 class="flaticon">Luxuries Yacht</h3>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad ratione quos distinctio unde.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="my-icon mb-3">
+                    <img src="images/shield (1).png" alt="">
+                </div>
+                <h3 class="flaticon">30 Years of Experience</h3>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad ratione quos distinctio unde.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="my-icon mb-3">
+                    <img src="images/captain (1).png" alt="">
+                </div>
+                <h3 class="flaticon">Good Captain</h3>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad ratione quos distinctio unde.</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------------------------------------------- -->
+    <div class="numbers mt-5 mb-5 special-margin">
+    
+            <div class="my-img d-flex text-center">
+            <div class="row justify-content-between">
+                    <div class="col-lg-2 ps-5 pe-5">
+                        <div class="my-num">
+                            <h1>349</h1>
+                            <p>Number of Yacht</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 ps-5 pe-5">
+                        <div class="my-num">
+                            <h1>7000+</h1>
+                            <p>Customers Satisfied</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 ps-5 pe-5">
+                        <div class="my-num">
+                            <h1>120</h1>
+                            <p>Number of Staffs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 ps-5 pe-5">
+                        <div class="my-num">
+                            <h1>493</h1>
+                            <p>Sea Destinations</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 ps-5 pe-5">
+                        <div class="my-num">
+                            <h1>230</h1>
+                            <p>Professional Sailors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <!-- -------------------------------------------------------------------------------- -->
+    <div class="container special-margin"  id="servies">
+        <div class="design">
+            <h5 class="mt-2">Destination</h5>
+            <h3>Our Destinations</h3>
+            <a class="line">________</a> 
+        </div>
+        <div class="row justify-content-around ms-3 me-3">
+                <div class="col-lg-4 col-md-6 mt-4 mb-4 ">
+                    <div class="my-box border">
+                        <img src="images/hero_1.jpg.webp" alt="" class="img-fluid">
+                        <div class="img-info d-flex mt-4 ps-3">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="name ps-3">Croatia — Columbia</div>
+                        </div>
+                        <div class="img-info d-flex mt-4 ps-3 mb-3">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <div class="date ps-3 my-padding"> Sep. 05 — Oct. 15</div>
+                            <button type="button" class="btn btn-primary">$600</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mb-4 ">
+                    <div class="my-box border">
+                        <img src="images/hero_2.jpg.webp" alt="" class="img-fluid ">
+                        <div class="img-info d-flex mt-4 ps-3">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="name ps-3">Croatia — Columbia</div>
+                        </div>
+                        <div class="img-info d-flex mt-4 ps-3 mb-3">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <div class="date ps-3 my-padding"> Sep. 05 — Oct. 15</div>
+                            <button type="button" class="btn btn-primary">$600</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mb-4 ">
+                    <div class="my-box border">
+                        <img src="images/hero_1.jpg.webp" alt="" class="img-fluid ">
+                        <div class="img-info d-flex mt-4 ps-3">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="name ps-3">Croatia — Columbia</div>
+                        </div>
+                        <div class="img-info d-flex mt-4 ps-3 mb-3">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <div class="date ps-3 my-padding"> Sep. 05 — Oct. 15</div>
+                            <button type="button" class="btn btn-primary">$600</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mb-4 ">
+                    <div class="my-box border">
+                        <img src="images/hero_2.jpg.webp" alt="" class="img-fluid ">
+                        <div class="img-info d-flex mt-4 ps-3">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="name ps-3">Croatia — Columbia</div>
+                        </div>
+                        <div class="img-info d-flex mt-4 ps-3 mb-3">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <div class="date ps-3 my-padding"> Sep. 05 — Oct. 15</div>
+                            <button type="button" class="btn btn-primary">$600</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mb-4 ">
+                    <div class="my-box border">
+                        <img src="images/hero_1.jpg.webp" alt="" class="img-fluid ">
+                        <div class="img-info d-flex mt-4 ps-3">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="name ps-3">Croatia — Columbia</div>
+                        </div>
+                        <div class="img-info d-flex mt-4 ps-3 mb-3">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <div class="date ps-3 my-padding"> Sep. 05 — Oct. 15</div>
+                            <button type="button" class="btn btn-primary">$600</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mb-4 ">
+                    <div class="my-box border">
+                        <img src="images/hero_2.jpg.webp" alt="" class="img-fluid ">
+                        <div class="img-info d-flex mt-4 ps-3">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="name ps-3">Croatia — Columbia</div>
+                        </div>
+                        <div class="img-info d-flex mt-4 ps-3 mb-3">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <div class="date ps-3 my-padding"> Sep. 05 — Oct. 15</div>
+                            <button type="button" class="btn btn-primary">$600</button>
+                        </div>
+                    </div>
+                </div>
+        
+        </div>
+    </div>
+    <!-- -------------------------------------------------------------------------------- -->
+    <div class="container mt-5 special-margin" id="contact">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-9">
+                <img src="images/hero_1.jpg.webp" alt="" class="img-fluid mb-4">
+                <img src="images/Screenshot 2023-01-30 141213.png" alt="" class="img-fluid mb-4">
+            </div>
+            <div class="col-lg-5 col-md-9">
+                <h5 class="mt-2">Book Now</h5>
+                <h3>Book A Yacht</h3>
+                <a class="line">________</a> 
+                <!--class= "was-validated" -->
+                <form action="#" method="post" class="">
+                        <div class="row mt-3">
+                            <div class="col-lg-6">
+                                <div><label for="fn" class="col-form-label">Full Name :</label></div>
+                                <input type="text" class="form-control" name="fn" required>
+                                <span class="valid-feedback">Name is required</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <div><label for="np" class="col-form-label">Number of People :</label></div>
+                                <input type="text" class="form-control" name="np" required>
+                                <span class="valid-feedback">minium two people required</span>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-lg-6">
+                                <div><label for="df" class="col-form-label">Date From :</label></div>
+                                <input type="text" class="form-control" name="df" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <div><label for="dt" class="col-form-label">Date To :</label></div>
+                                <input type="text" class="form-control" name="dt" required>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 mt-3">
+                                <div><label for="yatch" class="col-form-label">Yacht You're Interested in :</label></div>
+                                <select class="form-control" name="yatch">
+                                    <option value="" class="active"></option>
+                                    <option value="">Presidental Yatch</option>
+                                    <option value="">Motor Yatch</option>
+                                    <option value="">High speed Yatch</option>
+                                    <option value="">Premium Yatch</option>
+                                </select>
+                        </div>
+            
+                        <div class="row mt-3">
+                            <div class="col-lg-6 mt-2">
+                                <div><label for="em" class="col-form-label">Email Address :</label></div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Enter Email" class="form-control" name="em" required>
+                                    <span class="valid-feedback">Email is required</span>
+                                    <span class="input-group-text">@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mt-2">
+                                <div><label for="pn" class="col-form-label">Phone Number :</label></div>
+                                <div class=" input-group">
+                                    <span class="input-group-text">+91-</span>
+                                    <input type="text" placeholder="Enter Number" class="form-control" name="pn" required>
+                                    <span class="valid-feedback">Phone number is required</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div><label for="meg" class="col-form-label mylabel mt-2">Notes :</label></div>
+                            <textarea class="form-control" name="meg" rows="5" maxlength="50" minlength="10" ></textarea>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <input type="submit" class="btn btn-primary mb-5 ms-1 mt-4" value="book now">
+                        </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------- -->
+    <div class="container mt-5 mb-5 special-margin" id="blog">
+        <div class="design mb-5">
+            <h5 class="mt-2">Team</h5>
+            <h3>Our Team</h3>
+            <a class="line">________</a> 
+        </div>
+        <div class="row ms-5 me-4">
+            <div class="col-lg-3">
+                <div class="my-img-info text-center">
+                        <div class="img-trans">
+                            <img src="images/person_1.jpg.webp" alt="" class="img-fluid">
+                                <div class="img-icon">
+                                    <div class="icon-box">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </div>
+                                    <div class="icon-box">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </div>
+                                    <div class="icon-box">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    <h2>Craig Daniel</h2>
+                    <p>Engineer</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="my-img-info text-center">
+                        <div class="img-trans">
+                            <img src="images/person_2.jpg.webp" alt="" class="img-fluid">
+                            <div class="img-icon">
+                                <div class="icon-box">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="icon-box">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="icon-box">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                    <h2>Craig Daniel</h2>
+                    <p>Engineer</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="my-img-info text-center">
+                        <div class="img-trans">
+                            <img src="images/person_3.jpg.webp" alt="" class="img-fluid">
+                            <div class="img-icon">
+                                <div class="icon-box">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="icon-box">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="icon-box">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                    <h2>Craig Daniel</h2>
+                    <p>Engineer</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="my-img-info text-center">
+                        <div class="img-trans">
+                            <img src="images/person_4.jpg.webp" alt="" class="img-fluid">
+                            <div class="img-icon">
+                                <div class="icon-box">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="icon-box">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="icon-box">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                    <h2>Craig Daniel</h2>
+                    <p>Engineer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------- -->
+    <div class="container mt-5 mb-5 special-margin" id="testimonials">
+        <div class="design mb-5">
+            <h5 class="mt-2">Testimonial</h5>
+            <h3>What Customer Saying...</h3>
+            <a class="line">________</a> 
+        </div>
+        <div class="row ms-5 me-4">
+            <div class="col-lg-4">
+                <div class="description ">
+                    <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>
+                    <p class="colon">,,</p>             
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-3 circle-img">
+                      <img src="images/per-1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 mt-1">
+                        <h3 class="photo-head">John Doe</h3>
+                        <p class="para2">CEO and Co-Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="description">
+                    <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>
+                    <p class="colon">,,</p>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-3 circle-img">
+                      <img src="images/per-2.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 mt-1">
+                        <h3 class="photo-head">John Doe</h3>
+                        <p class="para2">CEO and Co-Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="description">
+                    <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>
+                    <p class="colon">,,</p>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-3 circle-img">
+                      <img src="images/per-3.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 mt-1">
+                        <h3 class="photo-head">John Doe</h3>
+                        <p class="para2">CEO and Co-Founder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------- -->
+    <div class="contact-us mt-5 mb-5 special-margin">
+        <div class="my-img d-flex text-center">
+            <div class="row justify-content-between">
+                <div class="design mt-5 ">
+                    <h1 class="mt-2">Get In Touch With Us</h1>
+                    <h3 class="cont-h3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                    <input type="submit" class="btn btn-warning mb-5 ms-1 mt-3 text-white" value="Contact Us">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------- -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 ms-5 ps-5">
+                    <a href="#" class="d-flex justify-content-start">
+                        <img src="images/logo.png.webp" alt="" class="img-fluid">
+                    </a>
+                    <p class="para3 mt-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
+                    <a href="#" class="learn">learn more</a>
+            </div>
+                <div class="col-lg-2 me-5">
+                    <h3 class="footer-heading mb-4 ms-4"><span>OUR COMPANY</span></h3>
+                    <ul class="footer-list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Servies</a></li>
+                        <li><a href="#">Our team</a></li>
+                        <li><a href="#">careers</a></li>
+                        <li><a href="#">Project</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 me-5">
+                    <h3 class="footer-heading mb-4 ms-4"><span>OUR SERVICES</span></h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Industrial</a></li>
+                        <li><a href="#">Construction</a></li>
+                        <li><a href="#">Remodeling</a></li>
+                    </ul>
+                </div>
+               
+                <div class="col-lg-2 me-5">
+                    <h3 class="footer-heading mb-4 ms-4"><span>CONTACT</span></h3>
+                    <ul class="footer-list">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Support Community</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">careers</a></li>
+                        <li><a href="#">Our Partners</a></li>
+                    </ul>
+                </div>
+                
+                
+                <div class="design mb-5 mt-5">
+                    <h5 class="mt-2 text-dark mt-5 my-bold">Copyright ©2023 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <span>Colorlib</span> </h5>
+                </div>
+        </div>
+    </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --col: #1089ff;
+    --bl:#000;
+
+}
+.con-head{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: var(--bl);
+}
+
+.con-p{
+    line-height: 1.7;
+    color: gray;
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+}
+.contact-icon{
+    width: 100%;
+    padding-top: 8px;
+}
+.box{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background:var(--col);
+    border-radius: 50%;
+}
+
+.box i{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+/* ---------------------------navbar---------------------------- */
+
+.my-bar{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: var(--col);
+    z-index: 100;
+   
+  
+}
+.my-center ul{
+    align-items: flex-end;
+}
+.nav-item .nav-link{
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+}
+/* -------------------------------------carousel--------------------------- */
+
+
+@media (prefers-reduced-motion: reduce){
+.carousel-inner .carousel-item {
+    transition: 0.6s ease-in-out;
+}
+}
+.my-circle{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color:var(--col);
+    border-radius: 50%;
+}
+.my-circle span{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 28%;
+}
+.my-caption{
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 28%;
+    margin-left: 25%;
+
+}
+.my-caption h1{
+    font-size: 3rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: right;
+}
+.my-caption p{
+    font-size: 1.2rem;
+   width:95%;
+   text-align: left;
+   
+}
+.carousel-caption h1{
+    font-size: 3rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: #fff
+}
+.carousel-caption p{
+    font-size: 1.2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #fff
+}
+
+.bg-image-1{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(images/boat.png);
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-image-2{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(images/passenger.png);
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-caption .my-btn{
+    width:20%;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding:18px 18px 18px 18px;
+    font-family: "Oswald", sans-serif;
+    background-color: var(--col);
+
+}
+.my-caption .my-btn{
+    width:30%;
+    margin-left: 70%;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding:18px 18px 18px 18px;
+    font-family: "Oswald", sans-serif;
+}
+/* ------------------------------------------------------------col-lg-5 ----------------------------------------------------------------*/
+
+.col-lg-6 h3{
+    font-family: "Oswald", sans-serif;
+    color: var(--bl);
+}
+.col-lg-6 h5{
+    font-family: "Dancing Script", sans-serif;
+    color: var(--col);
+    font-size: 1.4rem;
+}
+.col-lg-6 .line{
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    color: var(--col);
+    font-size: 20px;
+}
+.col-lg-6 p{
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1.1rem;
+    font-family: 'Mulish', sans-serif;
+}
+.col-lg-6 .my-btn{
+     font-size: 15px;
+     padding: 15px 30px 15px 30px;
+     background-color: var(--col);
+     text-transform: uppercase;
+     letter-spacing: 0.1rem;
+     font-family: "Oswald", sans-serif;
+
+}
+/* --------------------------------------col-lg-3----------------------- */
+.my-icon img{
+    width: 18%;
+}
+.flaticon{
+
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--bl);
+}
+.para{    
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1.1rem;
+    font-family: 'Mulish', sans-serif;
+}
+.numbers{
+    background-color: var(--col);
+}
+.numbers .my-num h1{
+    font-family:"Oswald", sans-serif;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.numbers .my-num p{
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+}
+
+.my-img{
+    background: linear-gradient(rgba(56, 152, 243, 0.489),rgba(28, 124, 241, 0.842)),url(images/Screenshot\ 2023-01-30\ 141107.png);
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+/*---------------------------------------------------------------------------------------------------------------------- */
+
+.design{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.design h5{
+    font-family: "Dancing Script", sans-serif;
+    color: var(--col);
+    font-size: 1.4rem;
+}
+.design h3{
+    font-family: "Oswald", sans-serif;
+    color: var(--bl);
+}
+.my-box .img-info i{
+    font-size: 20px;
+    color: var(--col);
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.img-info button{
+    background-color: var(--col);
+}
+.my-padding{
+    padding-right:60px;
+}
+
+.my-box .name{
+    font-size: 20px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 500;
+
+}
+.my-box .date{
+    color: gray;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;;
+}
+.my-box{
+    box-shadow: 0 0 1em 0.25em rgb(226, 222, 222),
+      0 0 4em 1em rgba(222, 220, 220, 0.781);
+}
+.my-box button{
+    width: 22%;
+}
+/* -------------------------------------------------------------- */
+
+.col-lg-5 h5{
+    font-family: "Dancing Script", sans-serif;
+    color: var(--col);
+    font-size: 1.4rem;
+}
+.col-lg-5 h3{
+    font-family: "Oswald", sans-serif;
+    color: var(--bl);
+}
+.col-lg-6 .btn{
+    font-size: 15px;
+    padding: 15px 55px;
+    background-color: var(--col);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: "Oswald", sans-serif;
+}
+/* ------------------------------------------------------------------- */
+
+.img-trans{
+    position: relative;
+    overflow: hidden;
+}
+.my-img-info img{
+     transition: 0.5s ease-in-out;
+}
+.my-img-info img:hover{
+    transform: scale(1.1);
+  
+}
+.img-icon{
+    position: absolute;
+    top: 55%;
+    left: 0%;
+}
+.img-icon .icon-box{
+    width: 100%;
+    padding: 5px 10px;
+}
+.img-icon .icon-box i{
+    background-color: #fff;
+    color: var(--col);
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+.img-icon .icon-box i:hover{
+    background-color: var(--bl);
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.my-img-info h2{
+    margin-top: 30px;
+    font-size: 1.75rem;
+    font-family: "Oswald", sans-serif;
+    color: var(--bl);
+}
+.my-img-info p{ 
+    font-size: 1.1rem;
+    font-family: 'Mulish', sans-serif;
+    color: var(--col);
+
+}
+.col-lg-5 h5{
+    font-family: "Dancing Script", sans-serif;
+    color: var(--col);
+    font-size: 1.4rem;
+}
+.col-lg-5 h3{
+    font-family: "Oswald", sans-serif;
+    color: var(--bl);
+}
+/* ---------------------------------------------------------------------- */
+
+.col-lg-4 .description{
+    border: 1px solid rgb(176, 175, 175);
+    padding: 30px 65px 15px 30px;
+    position: relative;
+}
+.description .para1{
+    font-style: italic;
+    line-height: 1.7;
+    color: gray;
+    font-size: 1.rem;
+    font-family: 'Mulish', sans-serif;
+}
+.description .colon{
+    width: 10%;
+    font-size: 50px;
+    color: var(--col);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+}
+.circle-img{
+    display: flex;
+    justify-content: center;
+}
+.circle-img img{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.col-lg-8 .photo-head{
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;    
+}
+.col-lg-8 .para2{
+    font-size: 14px;
+    color: rgb(175, 174, 174);
+}
+/* ------------------------------------------------------- */
+.contact-us{
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+.design h1{
+    font-size: 2.1rem;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    line-height: 1.7;
+}
+.design .cont-h3{
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Mulish', sans-serif;
+}
+.design .btn{
+    padding: 15px 45px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+    background-color: orange;
+    box-shadow: 0 0 1px .25em rgb(194, 166, 7);
+}
+/* ----------------------------------------------------------- */
+
+.para3{
+    font-size: 1rem;
+    color: rgb(155, 155, 155);
+    font-weight: 400;
+    line-height: 1.7;
+}
+.col-lg-2 .footer-heading{
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    color: var(--bl);
+    margin-bottom: 30px;
+}
+.col-lg-2 .footer-heading span{
+    border-bottom: 3px solid var(--col);
+}
+.footer-list li{
+    list-style: none;
+    padding-bottom: 10px;   
+}
+.col-lg-3 .learn{
+    color: var(--col);
+}
+.footer-list li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--col);
+}
+/* --------------------------------------------------------------- */
+
+.my-bold{
+    font-weight: bold; 
+    font-size: 14px;
+}
+.my-bold span{
+    color: var(--col);
+}
+.design i{
+   color: red;
+}
+.special-margin{
+    margin-bottom: 130px;
+}
